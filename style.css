@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url("./fonts/Raleway-VariableFont_wght.ttf");
+}
+
+* {
+    font-family: 'Raleway';
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    padding: 24px 32px;
+    background-color: #ee1515;
+    align-self: normal;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    height: 40px;
+}
+
+.main-content {
+    max-width: 1920px;
+}
+
+.display-details {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.loading-view {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+.loading-view span {
+    font-weight: 500;
+}
+
+.no-found-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 80vh;
+}
+
+.d-none {
+    display: none;
+}
+
+.pokemon-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+body.lock-scroll {
+    overflow: hidden;
+}
+
+#search-pkm {
+    background-image: url("./assets/img/searchicon.png");
+    background-repeat: no-repeat;
+    background-position: 3px;
+    padding: 5px 5px 5px 27px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.logo-search-header {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 408px) {
+    .logo-search-header {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .pokemon-grid {
+        gap: 8px;
+    }
+}

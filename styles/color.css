@@ -1,0 +1,82 @@
+.normal, .unknown {
+    background-color: gainsboro;
+}
+
+.fighting {
+    background-color: darkkhaki;
+}
+
+.flying {
+    background-color: lightskyblue;
+}
+
+.poison {
+    background-color: darkviolet;
+    color: white;
+}
+
+.ground {
+    background-color: lightsalmon;
+}
+
+.rock {
+    background-color: darkgray;
+}
+
+.bug {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.ghost {
+    background-color: darkslategrey;
+    color: white;
+}
+
+.steel {
+    background-color: dimgray;
+    color: white;
+}
+
+.fire {
+    background-color: rgb(247, 117, 71);
+}
+
+.water {
+    background-color: aquamarine;
+}
+
+.grass {
+    background-color: lightgreen;
+}
+
+.electric {
+    background-color: goldenrod;
+}
+
+.psychic {
+    background-color: mediumvioletred;
+    color: white;
+}
+
+.ice {
+    background-color: cadetblue;
+    color: white;
+}
+
+.dragon {
+    background-color: khaki;
+}
+
+.dark {
+    background-color: darkslateblue;
+    color: white;
+}
+
+.fairy {
+    background-color: lightpink;
+}
+
+.stellar {
+    background-color: sandybrown;
+}

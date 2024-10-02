@@ -1,0 +1,63 @@
+.rotate {
+    animation: rotation 2s infinite linear;
+    filter: invert(90%);
+}
+
+.no-rotate {
+    filter: invert(90%);
+}
+  
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}
+
+.arrow-double-right {
+    width: 25px;
+    height: 25px;
+}
+
+.btn-next-previous {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+.btn-next-previous button {
+    background-color: #ee1515;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+  user-select: none;
+  padding: 1px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25%;
+}
+
+.arrow:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
